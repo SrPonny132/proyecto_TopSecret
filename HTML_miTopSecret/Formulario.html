@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" type="text/css" href="Paterno.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Pacifico&family=Patua+One&display=swap" rel="stylesheet">      
+    <style>
+         header {
+            background-image: url('img/head.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        nav a[href="Formulario.html"] {
+            font-weight: bold;
+            color: rgb(17, 0, 255);
+        }        
+    </style>
+</head>
+<body>
+    <header>
+        <br>
+        <h1>Reseñas y opiniones</h1>
+        <p>TopSecret</p>
+        <br>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Galeria.html">Galería</a></li>
+            <li><a href="Videos.html">Videos</a></li>
+            <li><a href="cards.html">Naturaleza y destinos</a></li>
+            <li><a href="Olvido.html">Olvido</a></li>
+            <li><a href="Formulario.html">Formulario</a></li>
+            <li><a href="acercaDe.html">Acerca de...</a></li>
+        </ul>
+    </nav>   
+    <form action="gracias.html">
+        <label for="nombre">Nombre:</label><br>
+        <input style="width: 350px;" type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo Electrónico:</label><br>
+        <input style="width: 350px;" type="email" id="correo" name="correo" required><br><br>
+
+        <label for="mensaje">Comentarios:</label><br>
+        <textarea style="width: 350px;" id="mensaje" name="mensaje" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form><br>
+    <footer>
+        <br>
+        <div class="container">
+            <img src="img/ittepic.png" class="imagen" alt="img" width="100" height="100">
+            <p>&copy; Instituto Tecnologico de Tepic</p>
+            <p>Derechos reservados: Sebastian Paredes</p>
+            <p>Contacto: <a style="color: blanchedalmond;" href="separedescu@ittepic.edu.mx" >separedescu@ittepic.edu.mx</a></p>            
+        </div>
+        <br>
+    </footer>
+</body>
+</html>

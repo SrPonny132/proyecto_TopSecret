@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Galería de imágenes</title>
+    <link rel="stylesheet" type="text/css" href="Paterno.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Pacifico&family=Patua+One&display=swap" rel="stylesheet">   
+    <style>                           
+        body {
+            text-align: center;
+        }
+        header {
+            background-image: url('img/head.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        nav a[href="cards.html"] {
+            font-weight: bold;
+            color: rgb(17, 0, 255);
+        }
+        .gallery-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }       
+        
+        .gallery-description {
+            margin-top: 20px;
+            font-style: italic;
+        }
+    </style>   
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+</head>
+<body>
+    <header>
+        <br>
+        <h1>Naturaleza y destinos</h1>
+        <p>Presentadas en CARDS</p>
+        <br>
+    </header> 
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Galeria.html">Galería</a></li>
+            <li><a href="Videos.html">Videos</a></li>
+            <li><a href="cards.html">Naturaleza y destinos</a></li>
+            <li><a href="Olvido.html">Olvido</a></li>
+            <li><a href="Formulario.html">Formulario</a></li>
+            <li><a href="acercaDe.html">Acerca de...</a></li>
+        </ul>
+    </nav>   
+    <main>
+        <H1>Podria gustarte:</H1>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, 1fr); gap: 20px;">
+            <div class="card">
+                <img src="img/nat1.jpg" alt="Avatar" width="150" height="150">
+                <div class="container">
+                    <h4><b>Playa</b></h4>
+                    <p>Tranquilidad que inspira su cristalina agua y blanca arena</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/nat2.jpg" alt="Avatar" width="150" height="150">
+                <div class="container">
+                    <h4><b>Cascada</b></h4>
+                    <p>Armonioso el sonido que produce el andar del agua</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/nat3.jpg" alt="Avatar" width="150" height="150">
+                <div class="container">
+                    <h4><b>Bosque</b></h4>
+                    <p>Frondozos e imponentes pinos a la orilla del rio</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/nat4.jpg" alt="Avatar" width="150" height="150">
+                <div class="container">
+                    <h4><b>Bosque</b></h4>
+                    <p>Delicados los rayos de sol que penetran entre los arboles</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/nat5.jpeg" alt="Avatar" width="150" height="150">
+                <div class="container">
+                    <h4><b>Montañas</b></h4>
+                    <p>Majestuosas e imponentes</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/nat6.jpeg" alt="Avatar" width="150" height="150">
+                <div class="container">
+                    <h4><b>Rio</b></h4>
+                    <p>"Green is life"</p>
+                </div>
+            </div>
+        </div>
+        <p>De acuerdo a tu personalidad, los anteriores son algunos ecosistemas que podrian gustarte</p>
+        <div style="display: flex; justify-content: center; align-items: center; height: 70vh;">
+            <table style="background-color: #0066ff;color: #f7f7f7; margin-top: 20px;">
+                <thead style="background-color: #0066ff;">            
+                    <th style="color: #f7f7f7; font-weight: bold;" scope="col">Destinos turisticos</th>                                       
+                </thead>
+                <tr>
+                  <td><img src="img/des1.jpg" alt="Destino 1" width="150" height="150"><br>Londres</td>
+                  <td><img src="img/des2.jpg" alt="Destino 2" width="150" height="150"><br>Acapulco</td>
+                  <td><img src="img/des3.jpg" alt="Destino 3" width="150" height="150"><br>Santorini</td>
+                </tr>
+                <tr>
+                    <td><img src="img/des4.jpg" alt="Destino 1" width="150" height="150"><br>Normandia</td>
+                    <td><img src="img/des5.jpg" alt="Destino 2" width="150" height="150"><br>Venecia</td>
+                    <td><img src="img/des6.jpg" alt="Destino 3" width="150" height="150"><br>Hawaii</td>
+                </tr>
+              </table>
+        </div>   
+        <p>Los anteriores son algunos destinos a los que podrias viajar para relajarte, puedes comenzar la aventura en el enlace de abajo.</p>
+        <a href="https://www.trivago.com.mx/es-MX/lm?themeId=280&search=200-128&sem_keyword=trivago&sem_creativeid=548683551496&sem_matchtype=e&sem_network=g&sem_device=c&sem_placement=&sem_target=&sem_adposition=&sem_param1=&sem_param2=&sem_campaignid=12420264238&sem_adgroupid=118654232775&sem_targetid=kwd-5593367084&sem_location=9138802&cipc=br&cip=5219000005&gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbwaOh6k4txUf0gpg3oivUEb4Ydd8wyWhS13sB1wnUoniwP_obx2YYQaAovKEALw_wcB" target="_blank">Viajar</a>
+    </main>    
+    <footer>
+        <br>
+        <div class="container">
+            <img src="img/ittepic.png" class="imagen" alt="img" width="100" height="100">
+            <p>&copy; Instituto Tecnologico de Tepic</p>
+            <p>Derechos reservados: Sebastian Paredes</p>
+            <p>Contacto: <a style="color: blanchedalmond;" href="separedescu@ittepic.edu.mx" >separedescu@ittepic.edu.mx</a></p>            
+        </div>
+        <br>
+    </footer>
+</body>
+</html>

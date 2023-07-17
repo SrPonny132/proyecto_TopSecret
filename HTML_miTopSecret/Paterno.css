@@ -1,0 +1,135 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #00A3B5; /* Turquesa */
+  padding: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la navegación */
+nav {
+  background-color: #00A3B5; /* Turquesa */
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el contenido principal */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #00A3B5; /* Turquesa */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para las secciones */
+section {
+  background-color: #F0F0F0; /* Gris claro */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los artículos */
+article {
+  margin-bottom: 20px;
+}
+
+/* Estilos para los elementos secundarios */
+aside {
+  background-color: #E0E0E0; /* Gris medio */
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #00A3B5; /* Turquesa */
+  padding: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* Estilos para los botones */
+button {
+  background-color: #00A3B5; /* Turquesa */
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #008E9E; /* Turquesa oscuro */
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+}
